@@ -5,8 +5,6 @@ import streamlit as st
 import tempfile
 import zipfile
 
-# Logo e titolo
-st.image("logo.png", width=200)
 st.title("PDF Compiler App")
 
 # Istruzioni
