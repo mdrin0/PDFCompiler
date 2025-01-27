@@ -33,7 +33,15 @@ def compile_pdfs(pdf_path, excel_data, field_mapping, file_naming_columns, outpu
 
 
 # Streamlit App
-st.title("PDF Compiler App")
+st.title("PDF Compiler App by Rino")
+st.markdown("""
+## Come Utilizzare l'App
+1. **Carica un PDF**: Carica un file PDF compilabile contenente i campi da riempire.
+2. **Carica un File Excel**: Assicurati che il file contenga i dati da inserire nel PDF.
+3. **Mappa i Campi**: Collega i campi del PDF alle colonne dell'Excel.
+4. **Scegli il Nome dei File**: Seleziona i campi dell'Excel per generare i nomi dei PDF.
+5. **Compila i PDF**: Premi il pulsante per generare i PDF e salvarli nella tua cartella Downloads.
+""")
 
 # Step 1: Caricamento dei file
 st.header("Carica i file")
