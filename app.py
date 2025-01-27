@@ -5,16 +5,16 @@ import streamlit as st
 import tempfile
 import zipfile
 
-st.title("PDF Compiler App")
+st.title("PDF Compiler by Rino")
 
 # Istruzioni
 st.markdown("""
-## Come Utilizzare l'App
-1. **Carica un PDF**: Carica un file PDF compilabile contenente i campi da riempire.
-2. **Carica un File Excel**: Assicurati che il file contenga i dati da inserire nel PDF.
-3. **Mappa i Campi**: Collega i campi del PDF alle colonne dell'Excel.
-4. **Scegli il Nome dei File**: Seleziona i campi dell'Excel per generare i nomi dei PDF.
-5. **Compila i PDF e Scarica l'Archivio**: Premi il pulsante per generare i PDF e scaricarli.
+## Come utilizzare l'app
+1. **Carica un PDF**: carica un file PDF compilabile contenente i campi da riempire.
+2. **Carica un file Excel**: assicurati che il file contenga i dati da inserire nel PDF.
+3. **Mappa i campi**: collega i campi del PDF alle colonne dell'Excel.
+4. **Scegli il nome dei file**: seleziona i campi dell'Excel per generare i nomi dei PDF.
+5. **Compila i PDF e scarica l'archivio**: premi il pulsante per generare i PDF e scaricarli.
 """)
 
 # Caricamento dei file
